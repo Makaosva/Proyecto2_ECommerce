@@ -83,3 +83,8 @@ nav a {
 .card-body {
   flex-grow: 1;
 }
+
+.card-header img{
+  max-width: 100%;
+  height: auto;
+}
