@@ -7,7 +7,7 @@
 #page {
   display: grid;
   width: 100%;
-  height: 250px;
+  min-height: 100vh;
   grid-template-areas:
     "head head"
     "nav main"
@@ -30,6 +30,7 @@
 
 #page main {
   grid-area: main;
+  background-color: rgb(251, 222, 255);
 }
 
 #page nav {
@@ -42,6 +43,12 @@
 }
 #page footer {
   grid-area: foot;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 nav a {
