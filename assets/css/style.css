@@ -51,13 +51,18 @@
 }
 
 header p {
-  margin: 15px;
+  margin-top: 15px;
 }
 
 nav a {
   text-decoration: none;
   color: #a491d2;
   font-weight: bold;
+  padding: 5px;
+}
+
+nav a:hover {
+  color: white;
 }
 
 nav h2 {
@@ -73,8 +78,7 @@ nav h2 {
 .card {
   display: flex;
   flex-direction: column;
-
-  border: solid 1px;
+  background-color: white;
   margin: 10px;
   flex-basis: 200px;
   flex-shrink: 1;
@@ -114,4 +118,8 @@ figcaption p {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   border-radius: 0px;
+}
+
+button:hover{
+  background-color: black;
 }
