@@ -71,6 +71,7 @@ nav a {
 
 .cards {
   display: flex;
+  justify-content: space-between;
 }
 .card {
   display: flex;
@@ -84,7 +85,17 @@ nav a {
   flex-grow: 1;
 }
 
-.card-header img{
+.card-header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item {
+  /*border: solid 2px blueviolet;*/
+  padding: 10px;
+}
+
+.item img {
   max-width: 100%;
   height: auto;
 }
